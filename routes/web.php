@@ -13,4 +13,5 @@
 
 Route::get('/', 'MainController@index');
 
-Route::resource('/book', 'BookController');
+//book manage
+Route::resource('/books', 'BookController');
